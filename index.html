@@ -120,6 +120,7 @@ Error message and password prompt
 </p><p><li>$:/DefaultTiddlers</li>
 </p><p><li>$:/HistoryList</li>
 </p><p><li>$:/isEncrypted</li>
+</p><p><li>$:/NewFieldName</li>
 </p><p><li>$:/NewTagName</li>
 </p><p><li>$:/plugins/tiddlywiki/fullscreen</li>
 </p><p><li>$:/ShowEditPreview</li>
@@ -127,9 +128,11 @@ Error message and password prompt
 </p><p><li>$:/state/tab-{260706635}</li>
 </p><p><li>$:/state/tab/moresidebar-{1461221948}</li>
 </p><p><li>$:/state/tab/sidebar-{1743827719}</li>
+</p><p><li>$:/state/tagsAutoComplete-{-1647645674}</li>
 </p><p><li>$:/status/UserName</li>
 </p><p><li>$:/StoryList</li>
-</p><p><li>$:/themes/tiddlywiki/readonly/styles.tid</li>
+</p><p><li>$:/theme</li>
+</p><p><li>$:/themes/tiddlywiki/readonly</li>
 </p><p><li>$:/themes/tiddlywiki/snowwhite</li>
 </p><p><li>$:/themes/tiddlywiki/vanilla</li>
 </p><p><li>$:/view</li>
@@ -1808,7 +1811,7 @@ Error message and password prompt
 <pre>[[ここなに？]]
 [[棒読みちゃん用プラグインPlugin_VJoyInputer]]</pre>
 </div>
-<div modified="20140223202716964" modifier="102782" title="$:/HistoryList" type="application/json">
+<div modified="20140223210031909" modifier="102782" title="$:/HistoryList" type="application/json">
 <pre>[
     {
         &quot;title&quot;: &quot;$:/ControlPanel&quot;,
@@ -1963,15 +1966,156 @@ Error message and password prompt
         }
     },
     {
-        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 613.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 189,
+            &quot;right&quot;: 1032,
+            &quot;bottom&quot;: 629.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '$:/themes/tiddlywiki/snowwhite'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '棒読みちゃん用プラグインPlugin_VJoyInputer'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;棒読みちゃん用プラグインPlugin_VJoyInputer&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 633.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 189,
+            &quot;right&quot;: 1032,
+            &quot;bottom&quot;: 649.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '$:/themes/tiddlywiki/snowwhite'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;
+    },
+    {
+        &quot;title&quot;: &quot;Draft of 'New Tiddler'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '$:/themes/tiddlywiki/snowwhite'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 653.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 180,
+            &quot;right&quot;: 1023,
+            &quot;bottom&quot;: 669.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '$:/themes/tiddlywiki/readonly'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 664.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 180,
+            &quot;right&quot;: 1023,
+            &quot;bottom&quot;: 680.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;Draft of '$:/themes/tiddlywiki/readonly'&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 673.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 180,
+            &quot;right&quot;: 1023,
+            &quot;bottom&quot;: 689.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 693.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 189,
+            &quot;right&quot;: 1032,
+            &quot;bottom&quot;: 709.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/vanilla&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 713.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 165,
+            &quot;right&quot;: 1008,
+            &quot;bottom&quot;: 729.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 693.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 189,
+            &quot;right&quot;: 1032,
+            &quot;bottom&quot;: 709.890625,
+            &quot;height&quot;: 16
+        }
+    },
+    {
+        &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly&quot;,
+        &quot;fromPageRect&quot;: {
+            &quot;top&quot;: 673.890625,
+            &quot;left&quot;: 843,
+            &quot;width&quot;: 180,
+            &quot;right&quot;: 1023,
+            &quot;bottom&quot;: 689.890625,
+            &quot;height&quot;: 16
+        }
     }
 ]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20140223192039920" creator="102782" modified="20140223192048269" modifier="102782" title="$:/NewTagName">
-<pre>つくったもの</pre>
+<div created="20140223204934630" creator="102782" modified="20140223205006562" modifier="102782" title="$:/NewFieldName">
+<pre></pre>
+</div>
+<div created="20140223192039920" creator="102782" modified="20140223204212375" modifier="102782" title="$:/NewTagName">
+<pre></pre>
 </div>
 <div dependents="" description="Adds support for HTML5 full screen mode" plugin-type="plugin" title="$:/plugins/tiddlywiki/fullscreen" type="application/json" version="5.0.7-beta">
 <pre>{
@@ -1986,7 +2130,7 @@ Error message and password prompt
 }</pre>
 </div>
 <div title="$:/ShowEditPreview">
-<pre>yes</pre>
+<pre>no</pre>
 </div>
 <div title="$:/state/tab-{-69404414}">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
@@ -2000,21 +2144,30 @@ Error message and password prompt
 <div title="$:/state/tab/sidebar-{1743827719}">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
+<div modified="20140223204208423" modifier="102782" title="$:/state/tagsAutoComplete-{-1647645674}">
+<pre>(93,429,110,24)</pre>
+</div>
 <div created="20140223191255381" creator="１" modified="20140223191258954" modifier="10278" title="$:/status/UserName">
 <pre>102782</pre>
 </div>
-<div list="ここなに？ 棒読みちゃん用プラグインPlugin_VJoyInputer" title="$:/StoryList">
+<div list="$:/themes/tiddlywiki/vanilla $:/themes/tiddlywiki/snowwhite $:/themes/tiddlywiki/readonly ここなに？ 棒読みちゃん用プラグインPlugin_VJoyInputer" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20140223202716959" creator="102782" modified="20140223202716959" modifier="102782" tags="$:/tags/stylesheet" title="$:/themes/tiddlywiki/readonly/styles.tid" type="application/x-tiddler">
-<pre>\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
-
-svg.tw-image-new-button, svg.tw-image-options-button, svg.tw-image-save-button, svg.tw-image-edit-button, svg.tw-image-delete-button, svg.tw-image-cancel-button, svg.tw-image-done-button {
-	display: none;	
-}
-</pre>
+<div modified="20140223205959426" modifier="102782" title="$:/theme">
+<pre>$:/themes/tiddlywiki/readonly</pre>
 </div>
-<div dependents="$:/themes/tiddlywiki/vanilla" description="A clean theme that emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.0.7-beta">
+<div created="20140223204720554" creator="102782" dependents="$:/themes/tiddlywiki/snowwhite" description="Theme for removing editing features" modified="20140223205932084" modifier="102782" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.0.7-beta">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\nsvg.tw-image-new-button, svg.tw-image-options-button, svg.tw-image-save-button, svg.tw-image-edit-button, svg.tw-image-delete-button, svg.tw-image-cancel-button, svg.tw-image-done-button {\n\tdisplay: none;\t\n}\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div created="20140223205241794" creator="102782" dependents="$:/themes/tiddlywiki/vanilla" description="A clean theme that emphasises individual tiddlers" modified="20140223205241795" modifier="102782" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.0.7-beta">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/snowwhite/base&quot;: {
@@ -2081,7 +2234,7 @@ svg.tw-image-new-button, svg.tw-image-options-button, svg.tw-image-save-button, 
 
 作者Twitter:https://twitter.com/102782</pre>
 </div>
-<div created="20140223191618788" creator="102782" modified="20140223194354366" modifier="102782" title="棒読みちゃん用プラグインPlugin_VJoyInputer">
+<div created="20140223191618788" creator="102782" modified="20140223204216998" modifier="102782" tags="つくったもの" title="棒読みちゃん用プラグインPlugin_VJoyInputer">
 <pre>公開場所:https://github.com/102782/Plugin_VJoyInputer
 
 某Ustのコメントで操作するアレを見て作りたくなったので
